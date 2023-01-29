@@ -28,7 +28,7 @@ public class AmbrosiumShardItem extends Item {
         return ActionResult.PASS;
     }
 
-    @Override
+   /* @Override
     public TypedActionResult<ItemStack> use(World worldIn, PlayerEntity playerIn, Hand handIn) {
         ItemStack heldItem = playerIn.getStackInHand(handIn);
 
@@ -37,9 +37,9 @@ public class AmbrosiumShardItem extends Item {
                 heldItem.setCount(heldItem.getCount() - 1);
             }
             playerIn.heal(2.0F);
-            return new TypedActionResult<>(ActionResult.SUCCESS, heldItem);
+           return new TypedActionResult<>(ActionResult.SUCCESS, heldItem);
         }
 
         return new TypedActionResult<>(ActionResult.PASS, heldItem);
-    }
+    }*/
 }
